@@ -33,9 +33,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, rando
 
 # Feature Scalling 
 from sklearn.preprocessing import StandardScaler
-
-
-
 sc_X = StandardScaler()
 # you can scale your dummy variables or not based on the context and what you want to do
 # with your data if you scalled it you will lose the knoweldge of the encding 
